@@ -1,0 +1,27 @@
+body {
+  background-color: $colorBg;
+}
+
+.kk-frame {
+  width: 100%;
+  max-width: $sizeMaxWidth;
+  margin: 0 auto;
+  padding: 0 3 * $baseline;
+}
+
+.bg-color-main {
+  background-color: $colorBg;
+}
+
+.bg-color-alt {
+  background-color: $colorBgAlt;
+}
+
+.bg-color-clear {
+  background-color: rgba(black, 0);
+}
+
+.bg-color-p {
+  background-color: rgba($colorBg, 0.9);
+}
+

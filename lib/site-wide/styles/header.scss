@@ -1,0 +1,64 @@
+
+#nav-header{
+  z-index: 10000;
+  position: fixed;
+  transform: translateY(-100px);
+  transition: all 0.3s ease-in-out;
+  padding: 0;
+
+  @media (max-width: $breakpoint-mobile) {
+    height: 0;
+    display: none;
+  }
+
+  &.show-header {
+    transform: translateY(0px);
+  }
+
+  .kk-frame {
+    padding: $baseline;
+    background-color: $colorBg;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .nav-header-links {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    .nav-header-link {
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+      line-height: 70px;
+      height: 70px;
+      justify-content: space-between;
+
+      a {
+        display: flex;
+        .nav-text {
+          font-weight: 400;
+        }
+
+        a.nav-text:target {
+          color: $colorTextAccentOpposite;
+        }
+
+        &.jack-kilby:hover {
+          .logo {
+            color: $colorTextAccent;
+          }
+        }
+
+        &:hover .nav-text {
+          color: $colorTextAccentOpposite;
+        }
+
+      }
+
+    }
+  }
+}

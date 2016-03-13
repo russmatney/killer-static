@@ -1,0 +1,46 @@
+h1.kk-logo {
+  font-weight: bold;
+  color: $colorTextAccent;
+}
+
+.kk-title {
+
+}
+
+h1.kk-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: $colorTextFg1;
+}
+
+h2.kk-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: $colorTextFg2;
+}
+
+h3.kk-title {
+  font-size: 1.3rem;
+  color: $colorTextFg2;
+  margin-bottom: $baseline * 3;
+}
+
+p.kk-text {
+  font-weight: 200;
+}
+
+.kk-center {
+  text-align: center;
+}
+.kk-left {
+  text-align: left;
+}
+.kk-right {
+  text-align: right;
+}
+
+
+.kk-text-blue {
+  color: $colorTextAccentDarker!important;
+}
+

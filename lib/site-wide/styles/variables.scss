@@ -1,0 +1,27 @@
+$posterDarkBlue: #231f20;
+$posterDarkBlueOpposite: #1F221E;
+$posterLightBlue: #24aeef;
+$posterLightBlueOpposite: #ff9d2c;
+
+$baseline: 8px;
+$sizeMaxWidth: 1136px;
+
+$colorTextFg1: rgba(white, 0.95);
+$colorTextFg2: rgba(white, 0.87);
+$colorTextFg3: rgba(white, 0.7);
+
+$colorTextAccent: rgba($posterLightBlue, 1);
+$colorTextAccentDarker: rgba($posterLightBlue, 0.87);
+$colorTextAccentDark: darken($posterLightBlue, 100%);
+$colorTextAccentLight: lighten($posterLightBlue, 100%);
+
+$colorTextAccentOpposite: rgba($posterLightBlueOpposite, 1);
+
+$colorBg: rgba($posterDarkBlue, 1);
+$colorBgAlt: rgba($posterLightBlue, 0.87);
+
+
+//breakpoints
+$breakpoint-mobile: 530px;
+$breakpoint-tablet: 800px;
+$breakpoint-small-window: 980px;
